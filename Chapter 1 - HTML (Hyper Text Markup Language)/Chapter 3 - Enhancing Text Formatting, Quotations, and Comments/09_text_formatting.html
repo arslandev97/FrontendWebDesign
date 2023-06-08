@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Text Formatting</title>
+</head>
+<body>
+
+    <!-- HTML Text Formatting -->
+    <!-- 
+        In HTML, you can apply various text formatting options to enhance the appearance and style of your text content. 
+    -->
+
+    <!-- Bold: Use the <strong> or <b> tag to make text appear in bold. For example: -->
+    <strong>This text is bold.</strong>
+    
+    <!-- or -->
+    <b>This text is bold.</b>
+
+    <!-- 
+            <strong> tag: The <strong> tag is used to indicate text with strong importance or significance, emphasizing its importance for semantic purposes. It carries a semantic meaning of importance beyond just visual styling. Browsers and assistive technologies may interpret the <strong> tag to emphasize the text and give it more weight in terms of significance or importance. It is typically used for emphasizing keywords, important points, or critical information within a document.
+
+        or 
+
+            <b> tag: The <b> tag, on the other hand, is primarily used for applying a visual presentation of bold text. It is not specifically tied to any semantic meaning. The <b> tag was traditionally used to represent text in a bold style when semantic meaning was not a concern. While it still visually renders the text in bold, it is generally recommended to use the <strong> tag instead when emphasizing text with semantic importance.
+
+        In most cases, it is best to use the <strong> tag when you want to convey strong importance or emphasize text with semantic meaning. This ensures that the text is properly interpreted by browsers, search engines, and assistive technologies. The <b> tag can still be used for purely presentational purposes, but it is advisable to reserve it for situations where there is no specific semantic meaning associated with the bold text.
+
+    -->
+
+
+    <!-- Italic: Use the <em> or <i> tag to make text appear in italic. For example: -->
+    <em>This text is italic.</em>
+
+    <!-- or -->
+    <i>This text is italic.</i>
+
+    <!-- 
+            <em> tag: The <em> tag is used to indicate text with emphasis or stress, emphasizing its importance or changing the tone of the content. It carries a semantic meaning of emphasis beyond just visual styling. Browsers and assistive technologies may interpret the <em> tag to emphasize the text and give it more weight in terms of importance or conveying the author's intention. It is typically used for emphasizing keywords, phrases, or sections of text that need special attention or to convey a particular emphasis.
+        
+        or
+
+            <i> tag: The <i> tag is primarily used for applying a visual presentation of italic text. It is not specifically tied to any semantic meaning. The <i> tag was traditionally used to represent text in an italic style when semantic meaning was not a concern. While it still visually renders the text in italic, it is generally recommended to use the <em> tag instead when emphasizing text with semantic importance.
+        
+        In most cases, it is best to use the <em> tag when you want to convey emphasis or stress to text with semantic meaning. This ensures that the text is properly interpreted by browsers, search engines, and assistive technologies. The <i> tag can still be used for purely presentational purposes, but it is advisable to reserve it for situations where there is no specific semantic meaning associated with the italic text.
+
+    -->
+
+    <!-- Underline: Using the <ins> and <u> tag to underline text. For example: -->
+    <p>The <ins>new</ins> version of the website is now live.</p>
+
+    <!-- or -->
+
+    <u>This text is underlined.</u>
+
+
+    <!-- 
+            <ins> tag: The <ins> tag is used to mark inserted or added content within a document. It is typically used to indicate text that has been recently added or modified compared to the original version. When rendered, the text wrapped with the <ins> tag is typically displayed with an underline by default, indicating that it is an addition to the content. The <ins> tag carries a semantic meaning of inserted or added content beyond just visual styling.
+        
+        or 
+
+            <u> tag: The <u> tag is used to underline text purely for visual presentation purposes. It does not carry any specific semantic meaning. The <u> tag was traditionally used to represent text with an underline when semantic meaning was not a concern. However, it is generally recommended to avoid using the <u> tag for underlining text, as underlining is commonly associated with hyperlinks, which could lead to confusion for users. Instead, the <u> tag can be used sparingly for specific cases where a different meaning is intended, but it is generally advised to use CSS styles to control the presentation of underlined text.
+        
+        In most cases, if you want to indicate added or inserted content within a document, it is best to use the <ins> tag to convey the semantic meaning of the addition. The <u> tag should be used cautiously and sparingly for specific cases where a different meaning is intended or for purely presentational purposes, such as styling specific text elements with an underline.
+  
+    -->
+
+
+    <!-- Strikethrough: Use the <s> or <del> tag to apply a strikethrough effect to text. For example: -->
+    <s>This text has a strikethrough.</s>
+
+    <!-- or -->
+    <del>This text has a strikethrough.</del>
+
+    <!-- 
+            <del> tag: The <del> tag is used to mark deleted or removed content within a document. It is typically used to indicate text that has been recently deleted or marked for removal compared to the original version. When rendered, the text wrapped with the <del> tag is typically displayed with a strikethrough effect by default, indicating that it is no longer part of the content. The <del> tag carries a semantic meaning of deleted or removed content beyond just visual styling.
+
+        or 
+
+            <s> tag: The <s> tag is used to apply a strikethrough effect purely for visual presentation purposes. It does not carry any specific semantic meaning. The <s> tag was traditionally used to represent text with a strikethrough when semantic meaning was not a concern. However, it is generally recommended to use the <del> tag instead when marking deleted or removed content to convey the semantic meaning of the deletion.
+        
+        In most cases, if you want to indicate deleted or removed content within a document, it is best to use the <del> tag to convey the semantic meaning of the deletion. The <s> tag should be used cautiously and sparingly for purely presentational purposes, such as styling specific text elements with a strikethrough.
+
+        Example:
+    -->
+    <p>The product price was initially $100, but it is now <del>$80</del>.</p>
+
+
+    <!-- Superscript -->
+    <!-- Use the <sup> tag to display text in superscript (above the normal line height). For example: -->
+    
+    <p> E=mc <sup>2</sup> </p>
+
+    <!-- Subscript -->
+    <!-- Use the <sub> tag to display text in subscript (below the normal line height). For example: -->
+    
+    <p>H<sub>2</sub>O</p>
+
+    
+    <!-- Small: Use the <small> tag to display text in a smaller font size. For example: -->
+    <small>This text is smaller.</small>
+
+
+    <!-- Code or Monospace:  -->
+    <!-- Use the <code> or <pre> tag to display text in a monospace font, ideal for showing code snippets or preserving formatting. For example: -->
+    
+    <code>console.log('Hello, world!');</code>
+    
+    <!-- or -->
+
+    <pre>
+        Roses are red,
+        Violets are blue;
+        Sugar is sweet,
+        And so are you.
+    </pre>
+
+
+    <!-- 
+        Remember, these tags should be used to represent the intended meaning of the text rather than just for visual appearance. Additionally, you can apply CSS styles to these tags or use CSS classes to achieve custom text formatting.
+
+        Experiment with these HTML text formatting tags to make your content visually appealing and highlight important information effectively.
+     -->
+
+    
+</body>
+</html>
